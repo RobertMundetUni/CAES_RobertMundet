@@ -17,14 +17,14 @@ DE LA LLETRA** per què la pràctica es pugui tractar automatitzadament:
 
 1. Clonar aquest repositori al vostre compte personal de Github.
 2. Crear els tests unitaris al package **org.udg.caes.banking**, carpeta *src/test/java* del repositori
-3. El codi que hi ha a *src/main/java* **NO ES POT TOCAR NI UNA SOLA LÍNIA**. S'ha de mantindre exactament igual que 
-l'original. Només podeu afegir codi als tests, a *src/test/java*
-4. Els tests estaràn subdividits per test cases (classes de test) de manera que cada testcase només contindrà tests 
-d'un sola classe. Per tant, us sortiran com a mínim tants testcases com classes poseu sota test. Per exemple, si decidiu que el mètode
-  *transfer* de la classe *AccountService* s'ha de testejar, haureu de crear la classe *testAccountService* que 
-  contindrà només els tests d'aquella classe.
+3. El codi que hi ha a *src/main/java* **NO ES POT TOCAR NI UNA SOLA LÍNIA**. S'ha de mantindre exactament igual que l'original. Només podeu afegir codi als tests, a *src/test/java*
+4. Els tests estaràn subdividits per test cases (classes de test) de manera que cada testcase només contindrà tests d'un sola classe. Per tant, us sortiran com a mínim tants testcases com classes poseu sota test. Per exemple, si decidiu que el mètode *transfer* de la classe *AccountService* s'ha de testejar, haureu de crear la classe *testAccountService* que contindrà només els tests d'aquella classe.
 5. Les classes del package **FAKE** no s'han de testejar.Només s'ha nafegit per poder fer un *Main* que funcioni. 
 6. No cal fer res per entregar la pràctica, només fer els commit amb les tasques assignades al vostre repositori (no cal fer Pull Request).
+7. Cal assegurar que amb l'execució de *mvn test*:
+   1. S'executen tots els testos que s'han creat 
+   2. Es genera l'informe de cobertura de **JaCoCo**
+   3. Acaba amb **BUILD SUCCESS**
 
 ## Sobre el software
 
