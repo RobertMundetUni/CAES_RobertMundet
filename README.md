@@ -15,7 +15,7 @@ Trobareu el codi d'aquest exercici al repositori. És un projecte Maven que pot
 Aquesta pràctica es lliurarà com un repositori de [github ](http://www.github.com/) caldrà que el professor hi tingui accés per poder llegir-lo. Heu de seguir aquestes instruccions **AL PEU
 DE LA LLETRA** per què la pràctica es pugui tractar automatitzadament:
 
-1. Crear repositori al vostre compte personal de Github.
+1. Crear repositori al vostre compte personal de Github amb el codi proporcionat.
 3. Crear els tests unitaris al package **org.udg.caes.banking**, carpeta *src/test/java* del repositori
 4. El codi que hi ha a *src/main/java* **NO ES POT TOCAR NI UNA SOLA LÍNIA**. S'ha de mantindre exactament igual que l'original. Només podeu afegir codi als tests, a *src/test/java*
 5. Els tests estaràn subdividits per test cases (classes de test) de manera que cada testcase només contindrà tests d'un sola classe. Per tant, us sortiran com a mínim tants testcases com classes poseu sota test. Per exemple, si decidiu que el mètode *transfer* de la classe *AccountService* s'ha de testejar, haureu de crear la classe *testAccountService* que contindrà només els tests d'aquella classe.
@@ -25,7 +25,7 @@ DE LA LLETRA** per què la pràctica es pugui tractar automatitzadament:
    1. S'executen tots els testos que s'han creat 
    2. Es genera l'informe de cobertura de **JaCoCo**
    3. Acaba amb **BUILD SUCCESS**
-9. Fer el lliurament al Moodle indicant la URL del repositori de GitHub, cal assegurar que el professor hi tingi accés.
+9. Fer el lliurament al Moodle indicant la URL del repositori de GitHub, cal assegurar que el professor hi tingui accés.
 
 ## Sobre el software
 
